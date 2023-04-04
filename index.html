@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <h1 class="header-logo">love <span class="header-icon"><img class="icon" src="assets/heart.png" alt=""></span> calculator</h1>        
+    </header>
+
+    <section id="quote">
+        <h2>
+            "Whatever our souls are made of, his and mine are the same." <br>
+            - Emily Brontë
+        </h2>
+    </section>
+
+    <section id="love-calculator">
+        <div class="calculator-input">
+            <input class="input01" type="text" placeholder="Beatriz" maxlength="10" required>
+            <img class="icon" src="assets/heart.png">
+            <input class="input02" type="text" placeholder="Gabriel" maxlength="10" required>
+            <button class="calculate" onclick="calculate()">Calculate!</button>
+        </div>
+    </section>
+
+    <section id="result">
+        <img class="result-gif" src="assets/giphy.gif" alt="">
+        <div class="result-names">
+            <p class="firstName">Nome 1</p>
+            <img class="result-icon" src="assets/hearts.png" alt="">
+            <p class="secondName">Nome 2</p>
+        </div>
+        <div class="result-porcentagem">
+            <span >%</span>
+            <p class="percentage" >N</p>
+        </div>
+        <button class="calculateAgain" onclick="reset()">Another Match!</button>
+
+    </section>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
