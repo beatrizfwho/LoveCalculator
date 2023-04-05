@@ -27,7 +27,7 @@ function calculate(ev) {
         if (finalPercentage <= 10) {
             resultGif.src = 'assets/sad.gif'
         } else if (finalPercentage <= 30) {
-            resultGif.src = 'soso.gif'
+            resultGif.src = 'assets/soso.gif'
         } else if (finalPercentage <= 50) {
             resultGif.src = 'assets/eee.gif'
         } else if (finalPercentage <= 80) {
